@@ -10,8 +10,8 @@ function showAlert() { alert('Hola!, esta es una alerta desde JavaScript!');}
 //function handleClick(){
 //    alert('Hola haz hecho clic');
 //}
+const form = document.getElementById('myForm');
 if (form){
-  const form = document.getElementById('myForm');
   form.addEventListener('submit', function(event) {
     event.preventDefault();
     validateForm();
