@@ -1,0 +1,23 @@
+.divExterno{
+    background-color: grey;
+    margin: 40px;
+    padding: 30px;
+    width: 500px;
+    height: 300px;
+}
+
+.divMedio {
+    margin: 30px;
+    padding: 20px;
+    width: 400px;
+    height: 200px;
+    background-color: red;
+}
+
+.divInterno{
+    background-color: black;
+    margin: 20px;
+    padding: 10px;
+    width: 350px;
+    height: 150px;
+}
