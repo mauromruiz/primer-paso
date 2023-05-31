@@ -11,6 +11,7 @@ function showAlert() { alert('Hola!, esta es una alerta desde JavaScript!');}
 //    alert('Hola haz hecho clic');
 //}
 const form = document.getElementById('myForm');
+
 if (form){
   form.addEventListener('submit', function(event) {
     event.preventDefault();
