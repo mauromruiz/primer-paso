@@ -1,0 +1,23 @@
+.img{
+    max-width: 99%;
+    max-height: 99%;
+    padding: 10px;
+}
+
+.image-slider{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: black;
+    max-height: 600px;
+}
+
+#ant{
+    position: absolute;
+    left: 0;
+}
+
+#sig{
+    position: absolute;
+    right: 0;
+}
